@@ -99,6 +99,7 @@ height: 300px;
 }
 div{
    width: auto;
+   height: auto ;
 background-color:var(--cor3);
 margin: auto;
 position: relative;
