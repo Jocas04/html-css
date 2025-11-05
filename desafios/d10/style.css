@@ -98,8 +98,7 @@ width: 500px;
 height: 300px;
 }
 div{
-    min-width: 320px;
-max-width: 1050px;
+   width: auto;
 background-color:var(--cor3);
 margin: auto;
 position: relative;
