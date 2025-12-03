@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@font-face {
+    font-family: passion1;
+    src: url(fontes/PassionOne-Regular.ttf);
+}
+@font-face {
+    font-family: skchibi;
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+@font-face {
+    font-family: passion2;
+    src: url(fontes/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: passion3;
+    src: url(fontes/PassionOne-Black.ttf);
+}
+h1 {
+font-family: passion1;
+}
+p {
+font-family: skchibi;
+font-size: 10vh;
+}
+header{
+text-align: center;
+background-color: rgb(109, 109, 109);
+margin: auto;
+
+} a{
+text-decoration: none;
+}
+*{
+line-height: 1.5em;
+margin: 0px;
+padding: 0px;
+}
