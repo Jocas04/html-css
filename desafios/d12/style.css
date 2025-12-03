@@ -17,21 +17,80 @@
 }
 h1 {
 font-family: passion1;
+font-size: 20vh; 
+padding-top: 50px;
+font-variant: small-caps;
 }
 p {
 font-family: skchibi;
-font-size: 10vh;
+font-size: 7vh;
+line-height: 2em;
+padding-left: 30px;
+
 }
 header{
 text-align: center;
 background-color: rgb(109, 109, 109);
 margin: auto;
-
+color: white;
+display: block;
+unicode-bidi: isolate;
 } a{
 text-decoration: none;
+color: white;
+padding: 3px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+a:hover{
+text-decoration: underline;
+}
+#as{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1em;
+padding-bottom: 50px;
 }
 *{
 line-height: 1.5em;
 margin: 0px;
 padding: 0px;
+}
+body {
+text-align: justify;
+}
+section{
+padding-left: 30px;
+padding-bottom: 10vh;
+padding-top: 10vh;
+}
+footer{
+color: white;
+background-color: rgb(109, 109, 109) ;
+text-align: center;
+
+}
+.imagem{
+display: block;
+color: white;
+background-repeat: no-repeat;
+background-position:right center;
+background-size: cover;
+background-attachment: fixed;
+box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.543);
+}
+.imagem>p{
+background-color: rgba(107, 107, 107, 0.438);
+display: inline-block;
+padding: 5px;
+}
+#img1{
+background-image: url(imagens/background001.jpg);
+
+}
+#img2{
+background-image: url(imagens/background002.jpg);
+}
+#A{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1em;
 }
