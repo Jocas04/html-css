@@ -17,7 +17,7 @@
 }
 h1 {
 font-family: passion1;
-font-size: 20vh; 
+font-size: 10vw; 
 padding-top: 50px;
 font-variant: small-caps;
 }
@@ -54,20 +54,29 @@ padding-bottom: 50px;
 line-height: 1.5em;
 margin: 0px;
 padding: 0px;
+font-size: 1em;
 }
-body {
+html, body {
 text-align: justify;
+min-height: 100vh;
+background-color: rgb(148, 148, 148);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 section{
 padding-left: 30px;
 padding-bottom: 10vh;
 padding-top: 10vh;
+line-height: 2em;
+font-size: 3.5vw;
+}
+section>p{
+padding-bottom: 2em;
 }
 footer{
 color: white;
 background-color: rgb(109, 109, 109) ;
 text-align: center;
-
+padding: 10px;
 }
 .imagem{
 display: block;
@@ -85,7 +94,7 @@ padding: 5px;
 }
 #img1{
 background-image: url(imagens/background001.jpg);
-
+background-position: right center;
 }
 #img2{
 background-image: url(imagens/background002.jpg);
@@ -96,4 +105,8 @@ font-size: 1em;
 }
 .normal{
 background-color: white;
+}
+section.normal{
+background-color: white;
+color: black;
 }
