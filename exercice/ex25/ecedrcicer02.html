@@ -13,10 +13,16 @@
         padding: 8px;
         text-align: center;
          }
+         thead>tr>th{
+        position: sticky;
+        top: 0;
+        background-color:rgb(142, 142, 142);
+        }
          table{
         border-collapse: collapse;
         width: 700px;
        height: auto;
+       position: relative;
         }
         img{
         max-width: 25px;
@@ -30,6 +36,16 @@
         .n{
         text-align: right;
         }
+        caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.685);
+        }
+        tbody > tr:nth-child(odd){
+        background-color: aqua;
+        }
     </style>
 </head>
 <body>
@@ -38,9 +54,11 @@
     <table>
         <thead>
             <tr>
-                <td> Unidade federativa</td>
-                <td>Populacao</td>
-                <td>Pais comparavel</td>
+                <th scope="col">
+                    Unidade federativa</th>
+                    <th scope="col">Populacao</th>
+                    <th scope="col">Pais comparavel
+                </th>
             </tr>
         </thead>
         <tbody>
@@ -77,15 +95,52 @@
                 <td class="n">11 233 263	</td>
                 <td class="n"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/60px-Flag_of_the_United_Arab_Emirates.svg.png" alt=""> Emirados Árabes Unidos (11 346 000)</td>
             </tr>
+             <tr>
+                <td> Pernambuco</td>
+                <td>9 562 007</td>
+                <td> Israel (9 517 181)</td>
+            </tr>
+            <tr>
+                <td> Ceará</td>
+                <td>9 268 836</td>
+                <td> Áustria (9 113 574)</td>
+            </tr>
+            <tr>
+                <td>  Pará</td>
+                <td>8 711 196	</td>
+                <td> Serra Leoa (8 819 794)</td>
+            </tr>
+            <tr>
+                <td> Santa Catarina </td>
+                <td>8 187 029	</td>
+                <td>Laos Laos (7 873 046)</td>
+            </tr>
+            <tr>
+                <td> Goiás </td>
+                <td>7 423 629	</td>
+                <td> Líbia (7 458 555)</td>
+            </tr>
+            
         </tbody>
         <tfoot>
             <tr>
-                <td>Total de habitantes</td>
+                <th scope="row">Total de habitantes</th>
                 <td class="n">122.693.476</td>
                 <td class="n">121.872.433</td>
             </tr>
+           
         </tfoot>
+        <caption>
+            Unidades federativas 
+        </caption>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit et vel tenetur eius eum ipsum deserunt itaque exercitationem ad recusandae, soluta magni natus sequi provident nesciunt a porro officiis aspernatur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae commodi quae fugiat temporibus illum voluptatem consequatur, eum perferendis dolor laboriosam fuga provident cum culpa, veniam, debitis necessitatibus sit qui natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste at expedita quo repellendus! Ipsam debitis officia error eaque eum optio, nemo assumenda harum suscipit ipsa odit, nam voluptatem deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla maiores omnis assumenda. Laboriosam exercitationem sit vel quia natus quasi impedit doloribus, ipsam sequi magni nam quod earum facilis soluta.</p> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit et vel tenetur eius eum ipsum deserunt itaque exercitationem ad recusandae, soluta magni natus sequi provident nesciunt a porro officiis aspernatur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae commodi quae fugiat temporibus illum voluptatem consequatur, eum perferendis dolor laboriosam fuga provident cum culpa, veniam, debitis necessitatibus sit qui natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste at expedita quo repellendus! Ipsam debitis officia error eaque eum optio, nemo assumenda harum suscipit ipsa odit, nam voluptatem deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla maiores omnis assumenda. Laboriosam exercitationem sit vel quia natus quasi impedit doloribus, ipsam sequi magni nam quod earum facilis soluta.</p>
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit et vel tenetur eius eum ipsum deserunt itaque exercitationem ad recusandae, soluta magni natus sequi provident nesciunt a porro officiis aspernatur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae commodi quae fugiat temporibus illum voluptatem consequatur, eum perferendis dolor laboriosam fuga provident cum culpa, veniam, debitis necessitatibus sit qui natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste at expedita quo repellendus! Ipsam debitis officia error eaque eum optio, nemo assumenda harum suscipit ipsa odit, nam voluptatem deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla maiores omnis assumenda. Laboriosam exercitationem sit vel quia natus quasi impedit doloribus, ipsam sequi magni nam quod earum facilis soluta.</p>
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit et vel tenetur eius eum ipsum deserunt itaque exercitationem ad recusandae, soluta magni natus sequi provident nesciunt a porro officiis aspernatur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae commodi quae fugiat temporibus illum voluptatem consequatur, eum perferendis dolor laboriosam fuga provident cum culpa, veniam, debitis necessitatibus sit qui natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste at expedita quo repellendus! Ipsam debitis officia error eaque eum optio, nemo assumenda harum suscipit ipsa odit, nam voluptatem deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla maiores omnis assumenda. Laboriosam exercitationem sit vel quia natus quasi impedit doloribus, ipsam sequi magni nam quod earum facilis soluta.</p>
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit et vel tenetur eius eum ipsum deserunt itaque exercitationem ad recusandae, soluta magni natus sequi provident nesciunt a porro officiis aspernatur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae commodi quae fugiat temporibus illum voluptatem consequatur, eum perferendis dolor laboriosam fuga provident cum culpa, veniam, debitis necessitatibus sit qui natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste at expedita quo repellendus! Ipsam debitis officia error eaque eum optio, nemo assumenda harum suscipit ipsa odit, nam voluptatem deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla maiores omnis assumenda. Laboriosam exercitationem sit vel quia natus quasi impedit doloribus, ipsam sequi magni nam quod earum facilis soluta.</p>
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit et vel tenetur eius eum ipsum deserunt itaque exercitationem ad recusandae, soluta magni natus sequi provident nesciunt a porro officiis aspernatur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae commodi quae fugiat temporibus illum voluptatem consequatur, eum perferendis dolor laboriosam fuga provident cum culpa, veniam, debitis necessitatibus sit qui natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste at expedita quo repellendus! Ipsam debitis officia error eaque eum optio, nemo assumenda harum suscipit ipsa odit, nam voluptatem deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla maiores omnis assumenda. Laboriosam exercitationem sit vel quia natus quasi impedit doloribus, ipsam sequi magni nam quod earum facilis soluta.</p>
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit et vel tenetur eius eum ipsum deserunt itaque exercitationem ad recusandae, soluta magni natus sequi provident nesciunt a porro officiis aspernatur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae commodi quae fugiat temporibus illum voluptatem consequatur, eum perferendis dolor laboriosam fuga provident cum culpa, veniam, debitis necessitatibus sit qui natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste at expedita quo repellendus! Ipsam debitis officia error eaque eum optio, nemo assumenda harum suscipit ipsa odit, nam voluptatem deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla maiores omnis assumenda. Laboriosam exercitationem sit vel quia natus quasi impedit doloribus, ipsam sequi magni nam quod earum facilis soluta.</p>
+
 
 </body>
 </html>
