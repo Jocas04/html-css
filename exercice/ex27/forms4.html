@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formds</title>
+</head>
+<body><h1>forms4.0</h1>
+    <hr>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="n">Nome:</label>
+            <input type="text" name="nome" autocomplete="name" placeholder="nome completo" maxlength="30" id="n" required>
+        </p>
+        <p>
+            <label for="m">Media: </label>
+            <input type="number" name="media" id="m" min="0" max="10"
+            step="0.5" placeholder="0 a 10" required>
+        </p>
+        <p>
+            <label for="p">Periodo letivo: </label>
+            <input type="month" name="periodo" id="p" value="2025-01">
+        </p>
+        <p>
+            <label for="d">Dia de prova: </label>
+            <input type="date" name="dia_prova" id="d">
+        </p>
+        <p>
+            <label for="t">Hora da prova: </label>
+            <input type="time" name="hora_prova" id="t">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
