@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body><h1>Forms 5.0</h1>
+    <hr>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <p>
+                <label for="ie">Email: </label>
+                <input type="email" name="email" id="ie" placeholder="Digite seu email" required>
+            </p>
+            <p>
+                <label for="it">Telefone: </label>
+                <input type="tel" name="telefone" id="it" placeholder="(xx)xxxxxxxxx" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+
+    </form>
+</body>
+</html>

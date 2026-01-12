@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formss</title>
+</head>
+<body><h1>Forms 6.0</h1>
+    <hr>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Escolha seu gênero:</legend>
+            <p>
+                <label for="irg">Masculino</label>
+                <input type="radio" name="genero" id="irg" value="M" checked><br>
+            </p>
+            <p>
+                <label for="irf">Feminino</label>
+                <input type="radio" name="genero" id="irf" value="F">
+            </p>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Esportes</legend>
+            <p>
+                <label for="ief">Futebol</label>
+                <input type="checkbox" name="futebol" id="ief" checked><br>
+            </p>
+            <p>
+                <label for="ieb">Basquete</label>
+                <input type="checkbox" name="basquete" id="ieb"><br>
+            </p>
+            <p>
+                <label for="iev">Volei</label>
+                <input type="checkbox" name="volei" id="iev"><br>
+            </p>
+            <p>
+                <label for="iet">Tenis</label>
+                <input type="checkbox" name="tenis" id="iet"><br>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
