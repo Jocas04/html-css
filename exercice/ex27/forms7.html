@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais um forms</title>
+</head>
+<body><h1>Forms 7.0
+</h1>
+<hr>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="ic">Cor: </label>
+            <input type="color" name="color" id="ic">
+        </p>
+        <p>
+            <label for="ini">Nivel de satisfacao: </label>
+            <input type="range" name="nivel" id="ini" min="0" max="10">
+        </p>
+        <p>
+            <label for="ifoto">Foto: </label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <p>
+            <label for="ies">Estado; </label>
+            <select name="estado" id="ies">
+                <optgroup label="regiao sudeste">
+                    <option value="RJ">Rio de janeiro</option>
+                    <option value="SP">Sao paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="regiao sul">
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa catrina</option>
+                    <option value="PR">Parana</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iproof">Profissao: </label>
+            <input type="text" name="profissao" id="iproof" list="slproof">
+            <datalist id="slproof">
+                <option value="AD">Administracao</option>
+                <option >Engenharia</option>
+                <option value="MED">Medicina</option>
+                <option >Programacao</option>
+            </datalist>
+        </p>
+        <p>
+            <input type="reset" value="Limpar Tudo">
+            <input type="submit" value="Enviar Tudo">
+        </p>
+    </form>
+    
+</body>
+</html>

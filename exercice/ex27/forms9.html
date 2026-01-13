@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais um forms</title>
+</head>
+<body><h1>Forms 7.0
+</h1>
+<hr>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inum">Numero: </label>
+            <input type="range" name="numero" id="inum" min="0" max="100" step="10" value="50" oninput="ival.innerHTML = Number(inum.value)">
+            <output id="ival">5</output>
+        </p>
+        <p>
+            <input type="reset" value="Limpar Tudo">
+            <input type="submit" value="Enviar Tudo">
+        </p>
+    </form>
+    
+</body>
+</html>
