@@ -1,2 +1,7 @@
 @charset "UTF-8";
 /*Estilo em pé tela*/
+body{
+    background-image: url(../../imagens/imagens/cev-portrait.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
