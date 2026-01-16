@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        /* Juntando todos os estilos */
+        *{
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+}
+h1{
+color: white;
+text-shadow: 3px,3px, 0px, black;
+padding: 10px;
+}
+/*tela deitada*/
+@media screen and (orientation: landscape){
+    body{
+       background-image: url(../../imagens/imagens/back-pc.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+/*tela em pé*/
+@media screen and (orientation: portrait){
+body{
+     background-image: url(../../imagens/imagens/cev-portrait.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+}
+    </style>
+</head>
+<body> <h1>mude a orientacao do dispositivo</h1>
+    <hr>
+
+    
+</body>
+</html>
