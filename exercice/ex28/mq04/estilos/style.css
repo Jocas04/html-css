@@ -33,11 +33,13 @@ body{
     background-position: center center;
 }
 main{
-    background-color: rgba(255, 255, 255, 0.778);
+    background-color: rgba(255, 255, 255, 0.771);
     border-radius: 10px;
     margin: auto;
     padding: 10px;
-    width: 90vw;
+    width: 400px;
+      margin-top: 20px;
+    
 }
 img{
     display: block;
