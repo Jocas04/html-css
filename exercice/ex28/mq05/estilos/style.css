@@ -16,28 +16,46 @@ main{
     text-align: justify;
     margin: 10px auto ;
     background-color: white;
-    max-width: 900px;
+    width: 90vw;
     height: auto;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px black; 
 }
+i#burguer{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(218, 161, 56);
+    cursor: pointer;
+    
+}
+i#burguer:hover{
+    background-color: rgb(255, 179, 0);
+    border-radius: 10px;
+    color: black;
+}
 header{
     background-color: rgb(218, 161, 56);
     margin-bottom: 20px;
+    
 }
 a:hover{
+    
     text-decoration: underline;
     background-color: rgb(255, 179, 0);
     border-radius: 10px;
+    
 }
-.menu{
-    display: inline-block;
+menu{
+    display: none;
     margin: 2px;
     padding: 10px;
-    background-color: rgb(255, 220, 123);
+    background-color: rgb(255, 242, 207);
     color: rgb(0, 0, 0);
     text-decoration: none;
+    text-align: center;
    
 }
 h1{
