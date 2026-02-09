@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        .cointainer{
+        background-color: lightseagreen;
+        display: flex;
+    }
+        .item{
+        background-color: cornflowerblue;
+        border: 1px solid black;
+        text-align: end;
+        flex-basis: 200px;
+        }
+        #a{
+        flex-grow: 1;
+        flex-shrink: 1;
+        }
+        #b{
+        flex-grow: 2;
+        flex-shrink: 1;}
+        #c{
+        flex-grow: 4;
+        flex-shrink: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="cointainer">
+        <div class="item" id="a">Item 1</div>
+        <div class="item" id="b">Item 2</div>
+        <div class="item" id="c">Item 3</div>
+        <div class="item" id="d">Item 4</div>
+        <div class="item" id="e">Item 5</div>
+        <div class="item" id="f">Item 6</div>
+        <div class="item" id="g">Item 7</div>
+
+    </div>
+    
+</body>
+</html>
