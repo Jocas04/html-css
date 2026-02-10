@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* estilos/midia query */
+
+@media screen and (min-width: 768px) {
+    i#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+        text-align: left;
+    }
+    menu >ul>li{
+        display: inline-block;
+       text-align: center;
+       margin: 0 5px;
+    }
+    main{
+        width: 768px;}
+}
+@media screen and (min-width: 992px){
+    main{
+        width: 992px;
+    }
+    menu{
+        text-align: right;
+        display: inline-block;
+
+    }
+}
