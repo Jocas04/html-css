@@ -14,8 +14,8 @@ body{
 }
 div{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: row wrap;
+    justify-content: flex-end;
     align-items: center;
 }
 main{
