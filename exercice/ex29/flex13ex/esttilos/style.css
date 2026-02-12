@@ -6,3 +6,31 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.aa{
+    text-align: center;
+    margin: 20px;
+}
+p{
+    line-height: 1.6;
+    text-align: justify;
+}
+div#item1{
+    background-color: rgba(191, 191, 191, 0.741);
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+div#item2{
+    background-color: rgba(191, 191, 191, 0.741);
+    display: flex;
+    flex-wrap: row wrap;
+}
+#container{
+    flex: auto;
+    justify-content: space-between;
+    text-align: justify;
+    margin:  10px auto ;
+}
