@@ -29,4 +29,24 @@ p{
 }
 section{
     background-color: rgba(186, 186, 186, 0.777);
+    display: flex;
+    flex-flow: column nowrap;
+}
+article#media-text{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+article#text-media{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+article > div#item1, article > div#item2{
+    flex: 1 1 500px;
+}
+article > div#imagem1, article > div#imagem2{
+    flex: 1 0 500px;
 }
