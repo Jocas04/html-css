@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        .container{
+            height: 500px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows:  100px 100px 100px;
+            gap: 20px;
+            border: 2px solid rgb(34, 205, 243);
+            padding: 10px;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            justify-items: center;
+        }
+        .class{
+            border: 2px dashed rgb(96, 54, 180);
+        }
+
+    </style>
+</head>
+<body> <h1>grid layout</h1>
+    <div class="container">
+        <div class="class">A</div>
+        <div class="class">B</div>
+        <div class="class">C</div>
+        <div class="class">D</div>
+        <div class="class">E</div>
+        <div class="class">F</div>
+        <div class="class">G</div>
+        <div class="class">H</div>
+    </div>
+
+</body>
+</html>
