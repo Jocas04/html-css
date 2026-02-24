@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+    /*
+    Coluna de prédio
+    Linha de trem
+    */
+        .container{
+            margin: auto;
+            width: 1000px;
+            height: 500px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 100px);
+            grid-auto-rows: 100px;
+            grid-auto-flow: row;
+          
+         
+            gap: 20px;
+            border: 2px solid rgb(34, 243, 97);
+            padding: 10px;
+            place-items: ;
+            place-content: ;
+        }
+        .caixa1{
+            border: 2px dashed rgb(180, 54, 54);
+            grid-row: 1 / 2;
+            grid-column: 1 / 5;
+            
+        }
+        .caixa2{
+            border: 2px dashed rgb(75, 20, 214);
+            grid-row: 2 / 4;
+            grid-column: -5 / -3;
+        }
+        .caixa3{
+            border: 2px dashed rgb(159, 180, 54);
+           grid-row: -3 / -1 ;
+           grid-column: 5 / 3;
+        }
+        .class{
+            border: 2px dashed rgb(180, 54, 54);
+            height: 100px;
+            width: 100px;
+        }
+
+    </style>
+</head>
+<body> <h1>grid layout</h1>
+    <div class="container">
+        <div class="caixa1"></div>
+        <div class="caixa2"></div>
+        <div class="caixa3"></div>
+    </div>
+
+</body>
+</html>
