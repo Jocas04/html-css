@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+    /*
+    Coluna de prédio
+    Linha de trem
+    */
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 150px;
+            grid-template-rows:80px 40px 1fr 40px;
+            gap: 10px;
+        }
+        .caixa1{
+            background-color: rgba(185, 185, 185, 0.577);
+            border: 2px dashed rgb(180, 54, 54);
+            grid-area: 1 / 1 / 2 / -1;
+            
+        }
+        .caixa2{
+            background-color: rgba(185, 185, 185, 0.577);
+            border: 2px dashed rgb(75, 20, 214);
+            grid-area: 2 / 1 / 3 /-1;
+        }
+        .caixa3{
+            background-color: rgba(185, 185, 185, 0.577);
+            border: 2px dashed rgb(159, 180, 54);
+           grid-row: 3 / span 1 ;
+           grid-column: 1 / 2;
+          
+        }
+        .caixa4{
+            background-color: rgba(185, 185, 185, 0.577);
+            border: 2px dashed rgb(180, 54, 149);
+           grid-area: 3 / 2 / span 1 / -1;
+        }
+        .caixa5{
+            background-color: rgba(185, 185, 185, 0.577);
+            border: 2px dashed rgb(0, 204, 255);
+            grid-row: 4 / 5;
+            grid-column: 1 / -1;
+        }
+        div{
+            font-weight: bold;
+            font-size: 30px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="caixa1">
+            <p>topo</p>
+        </header>
+        <nav class="caixa2">
+            <p>menu</p>
+        </nav>
+        <main class="caixa3">
+            <p>principal</p>
+        </main>
+        <aside class="caixa4">
+            <p>secundario</p>
+        </aside>
+        <footer class="caixa5">
+            <p>footer</p>
+        </footer>
+    </div>
+
+</body>
+</html>
